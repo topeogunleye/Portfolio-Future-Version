@@ -201,7 +201,7 @@ li {
     display: flex;
     align-items: center;
     list-style: none;
-    width: 250px;
+    width: 350px;
     justify-content: space-between;
   }
   .menu-wrap .navbar ul li a {
@@ -211,16 +211,16 @@ li {
     text-decoration: underline;
   }
 }
-.container {
+.container.header_section {
   position: sticky;
   top: 0;
 }
-.container .header {
+.container.header_section .header {
   margin: 25px auto;
   font-size: 18px;
   line-height: 20px;
 }
-.container .header .header_toolbar {
+.container.header_section .header .header_toolbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -229,7 +229,7 @@ li {
   border-radius: 0 0 20px 20px;
   padding: 10px;
 }
-.container .header .header_toolbar .header_logo {
+.container.header_section .header .header_toolbar .header_logo {
   font-weight: bold;
   text-decoration: none;
   animation: 3s ease-in 1s 1 normal running rotate;
