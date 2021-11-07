@@ -19,7 +19,7 @@ menuLinks.forEach((menuLink) => {
 
 // Add Highlight to Active Nav Link
 // https://dev.to/areeburrub/change-nav-link-s-style-as-you-scroll-4p62
-const sections = document.querySelectorAll('section');
+const sections = document.querySelectorAll('section', 'footer');
 
 const navLi = document.querySelectorAll('.navbar ul li a');
 
@@ -31,18 +31,17 @@ window.onscroll = () => {
 
     if (scrollY >= sectionTop - 60) {
       current = section.getAttribute('id');
-      console.log(current)
+      // console.log(current);
     }
   });
 
   navLi.forEach((li) => {
-    li.addEventListener('click', () => {
-      console.log(li)
-      li.classList.remove('active');
+    // console.log(li);
+    li.classList.remove('active');
 
-      if (li.classList.contains(current)) {
-        li.classList.add('active');
-      }
-    });
+    if (li.classList.contains(current)) {
+      console.log(li)
+      li.classList.add('active');
+    }
   });
 };
