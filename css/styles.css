@@ -54,7 +54,6 @@ li {
   margin: auto;
   background-color: #e5e5e5;
   border-bottom-left-radius: 90px;
-  padding-top: 10px;
 }
 
 .container {
@@ -240,6 +239,7 @@ li {
     width: 100%;
     position: sticky;
     top: 0;
+    background-color: #fff;
   }
   .container.header_section .header .header_toolbar {
     padding: 0 90px;
