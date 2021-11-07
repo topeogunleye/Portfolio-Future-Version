@@ -237,11 +237,11 @@ li {
 
 @media (min-width: 960px) {
   .container.header_section {
+    width: 100%;
     position: sticky;
     top: 0;
   }
   .container.header_section .header .header_toolbar {
-    background-color: #eef0f1;
     border-radius: 0 0 20px 20px;
     padding: 10px;
   }
@@ -264,6 +264,7 @@ li {
 @media (min-width: 960px) {
   .welcome {
     margin-bottom: 300px;
+    background-color: #fff;
     background-image: url("../images/background/header background-shape-desktop.svg");
   }
   .welcome .container {
