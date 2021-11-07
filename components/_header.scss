@@ -1,11 +1,18 @@
-.container {
+.container.header_section {
+  width: 100%;
+  background-color: #fff;
+  padding: 1px;
+  position: sticky;
+  top: 0;
+
   .header {
     margin: 25px auto;
     font-size: 18px;
     line-height: 20px;
 
     .header_toolbar {
-      width: 100%;
+      width: 87.5%;
+      margin: auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -25,23 +32,6 @@
         }
 
         @include animate(3s, ease-in, 1s, 1, normal, running, rotate);
-      }
-    }
-  }
-}
-
-@media (min-width: $breakpoint-laptop) {
-  .container.header_section {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    padding: 1px;
-
-    .header {
-      .header_toolbar {
-        width: 87.5%;
-        margin: auto;
       }
     }
   }
