@@ -245,7 +245,6 @@ li {
   .container.header_section .header .header_toolbar {
     width: 87.5%;
     margin: auto;
-    border-radius: 0 0 20px 20px;
   }
 }
 .welcome {
