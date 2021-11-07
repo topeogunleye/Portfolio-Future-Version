@@ -208,7 +208,7 @@ li {
     color: #344563;
   }
   .menu-wrap .navbar ul li .active {
-    text-decoration: underline;
+    border-bottom: 1px solid #333;
   }
 }
 .container.header_section {
