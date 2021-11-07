@@ -240,9 +240,11 @@ li {
     position: sticky;
     top: 0;
     background-color: #fff;
+    padding: 40px;
   }
   .container.header_section .header .header_toolbar {
-    padding: 0 90px;
+    width: 87.5%;
+    margin: auto;
     border-radius: 0 0 20px 20px;
   }
 }
