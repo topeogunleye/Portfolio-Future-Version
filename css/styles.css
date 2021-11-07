@@ -211,18 +211,25 @@ li {
     text-decoration: underline;
   }
 }
-.header {
+.container {
+  position: sticky;
+  top: 0;
+}
+.container .header {
   margin: 25px auto;
   font-size: 18px;
   line-height: 20px;
 }
-.header .header_toolbar {
+.container .header .header_toolbar {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #eef0f1;
+  border-radius: 0 0 20px 20px;
+  padding: 10px;
 }
-.header .header_toolbar .header_logo {
+.container .header .header_toolbar .header_logo {
   font-weight: bold;
   text-decoration: none;
   animation: 3s ease-in 1s 1 normal running rotate;
@@ -404,35 +411,35 @@ li {
     max-width: 45%;
   }
 }
-.contact {
+.footer {
   background: url("./images/background/header-shapes-contact@2x.svg");
   background-color: #6070ff;
   border-top-left-radius: 90px;
   padding: 100px 0;
 }
-.contact h2 {
+.footer h2 {
   margin-top: 0;
 }
-.contact h2,
-.contact p {
+.footer h2,
+.footer p {
   margin-bottom: 0;
   text-align: center;
   color: #ebebff;
 }
-.contact p {
+.footer p {
   font-size: 20px;
   line-height: 28px;
   transition: transform 2s ease-in-out 0s;
 }
-.contact p:hover {
+.footer p:hover {
   transform: translate(20px);
 }
-.contact form {
+.footer form {
   max-width: 400px;
   margin: 20px auto;
 }
-.contact form input,
-.contact form textarea {
+.footer form input,
+.footer form textarea {
   background: #fff;
   padding: 10px 16px;
   border-radius: 8px;
@@ -442,22 +449,22 @@ li {
   width: 100%;
   margin: 10px 0;
 }
-.contact form textarea {
+.footer form textarea {
   max-width: 100%;
   height: 170px;
 }
-.contact form .btn {
+.footer form .btn {
   margin-top: 10px;
 }
 
 @media (min-width: 960px) {
-  .contact {
+  .footer {
     background: url("../images/background/contact form background shapes.svg");
     background-color: #6070ff;
     text-align: center;
   }
-  .contact h2,
-.contact p {
+  .footer h2,
+.footer p {
     max-width: 500px;
     margin: auto;
     text-align: center;
