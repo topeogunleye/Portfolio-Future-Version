@@ -1,6 +1,4 @@
-.container.header_section {
-  position: sticky;
-  top: 0;
+.container {
   .header {
     margin: 25px auto;
     font-size: 18px;
@@ -11,9 +9,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #eef0f1;
-      border-radius: 0 0 20px 20px;
-      padding: 10px;
 
       .header_logo {
         font-weight: bold;
@@ -30,6 +25,21 @@
         }
 
         @include animate(3s, ease-in, 1s, 1, normal, running, rotate);
+      }
+    }
+  }
+}
+
+@media (min-width: $breakpoint-laptop) {
+  .container.header_section {
+    position: sticky;
+    top: 0;
+
+    .header {
+      .header_toolbar {
+        background-color: #eef0f1;
+        border-radius: 0 0 20px 20px;
+        padding: 10px;
       }
     }
   }
