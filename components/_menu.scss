@@ -84,9 +84,16 @@
         width: 250px;
         justify-content: space-between;
 
-        li a {
-          color: #344563;
+        li {
+          a {
+            color: #344563;
+          }
+
+          .active {
+            text-decoration: underline;
+          }
         }
+
       }
     }
   }
