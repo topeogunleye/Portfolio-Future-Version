@@ -242,9 +242,8 @@ li {
     top: 0;
   }
   .container.header_section .header .header_toolbar {
-    padding: 25px 0;
+    padding: 0 90px;
     border-radius: 0 0 20px 20px;
-    padding: 10px;
   }
 }
 .welcome {
