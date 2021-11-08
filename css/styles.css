@@ -263,7 +263,6 @@ li {
 
 @media (min-width: 960px) {
   .welcome {
-    margin-bottom: 300px;
     background-image: url("../images/background/header background-shape-desktop.svg");
   }
   .welcome .container {
