@@ -55,8 +55,7 @@
           text-decoration: none;
           font-weight: 600;
           font-size: 32px;
-          line-height: 44px;
-          padding: 40px 0;
+          line-height: 74px;
         }
       }
     }
@@ -84,11 +83,17 @@
         display: flex;
         align-items: center;
         list-style: none;
-        width: 250px;
+        width: 350px;
         justify-content: space-between;
 
-        li a {
-          color: #344563;
+        li {
+          a {
+            color: #344563;
+          }
+
+          .active {
+            border-bottom: 1px solid #333;
+          }
         }
       }
     }
