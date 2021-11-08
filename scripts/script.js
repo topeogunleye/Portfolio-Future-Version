@@ -2,6 +2,7 @@
 // https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
 const navbar = document.querySelector('.navbar'); // list
 const ham = document.querySelector('.ham'); // button
+
 const menuLinks = document.querySelectorAll('.menuLink');
 
 menuLinks.forEach((menuLink) => {
@@ -46,3 +47,9 @@ window.onscroll = () => {
     }
   });
 };
+// toggle when clicking on links
+
+// METHOD 1
+menuLinks.forEach((menuLink) => {
+  menuLink.addEventListener('click', toggleHamburger);
+});
