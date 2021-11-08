@@ -1,7 +1,7 @@
 // https://codepen.io/ljc-dev/embed/GRoLWxj?height=600&default-tab=js,result&embed-version=2
 // https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
-var navbar = document.querySelector('.navbar');
-var ham = document.querySelector('.ham');
+var navbar = document.querySelector('.navbar'); // list
+var ham = document.querySelector('.ham'); //button
 
 // toggles hamburger menu in and out when clicking on the hamburger
 function toggleHamburger() {
