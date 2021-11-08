@@ -27,8 +27,9 @@
       top: 0;
       left: 0;
       background: $overlay-color;
+      backdrop-filter: blur(6px);
       width: 100vw;
-      height: 760vh;
+      height: 100vh;
       overflow: hidden;
       color: white;
 
