@@ -48,8 +48,3 @@ window.onscroll = () => {
   });
 };
 // toggle when clicking on links
-
-// METHOD 1
-menuLinks.forEach((menuLink) => {
-  menuLink.addEventListener('click', toggleHamburger);
-});
