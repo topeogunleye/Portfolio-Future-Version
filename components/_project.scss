@@ -71,6 +71,70 @@
         letter-spacing: 0.03em;
         margin: 10px 0;
       }
+
+      .modal-container {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        // opacity: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(193, 199, 208, 0.3);
+        ;
+        .modal {
+          width: 87.5%;
+          margin: auto;
+          .project {
+            width: 100%;
+            margin: auto;
+            position: relative;
+            .primary-text {
+              width: 100%;
+              .experience {
+                .modal_header {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+
+                  h3 {
+                    margin: 0;
+                  }
+                  .closeModal {
+                    background-image: url('../images/svg/cancel-close-delete.svg');
+                    width: 16px;
+                    height: 16px;
+                    border: none;
+                    cursor: pointer;
+                    background-color: transparent;
+                    background-size: 100%;
+                    position: absolute;
+                    right: 20px;
+                  }
+                }
+              }
+            }
+
+            .project-text {
+              .modal-btn {
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+                .btn-live {
+                  width: 136px;
+                  display: flex;
+                  justify-content: space-between;
+                }
+                .btn-source {
+                  width: 146px;
+                  display: flex;
+                  justify-content: space-between;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

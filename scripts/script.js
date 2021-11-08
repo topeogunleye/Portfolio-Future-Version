@@ -1,3 +1,5 @@
+// https://codepen.io/ljc-dev/embed/GRoLWxj?height=600&default-tab=js,result&embed-version=2
+// https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
 const navbar = document.querySelector('.navbar');
 const ham = document.querySelector('.ham');
 const menuLinks = document.querySelectorAll('.menuLink');

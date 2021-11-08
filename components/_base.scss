@@ -86,6 +86,8 @@ li {
   padding: 8px 10px;
   width: fit-content;
   transition: all 1.4s ease-in-out 0s;
+  display: flex;
+  align-items: center;
 }
 
 .btn:hover {
